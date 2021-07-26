@@ -1,5 +1,5 @@
 # Update
-MT_BOT_UPDATES = "t.me/Mo_tech_YT"
+TeamMC Group = "t.me/TeamMC_Request"
 # Your Main Channel
-BOT_UPDATES = "t.me/Mo_Tech_YT"
+Main Channel = "t.me/TeamMC1"
 
