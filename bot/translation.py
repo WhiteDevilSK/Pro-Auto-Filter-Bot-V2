@@ -53,11 +53,9 @@ class Translation(object):
 
 <b>>➥👨‍💼Master</b> : <b><a href="https://t.me/SK_the_white_devil">👤White Devil</a></b>
 
-<b>➥ 👨‍💻Editor</b> : <b><a href="https://t.me/SK_the_white_devil">👤Mrk YT</a></b>
+<b>➥ 👨‍💻Editor</b> : <b><a href="https://t.me/SK_the_white_devil">👤Black Devil</a></b>
 
 <b>➥ 🗣️Language</b> : <b>Python3<b>
-
-<b>➥ 📚Library</b> : <b><a href="https://t.me/TeamMC1">Pyrogram Asyncio 1.13.0 </a></b>
 
 <b>➥ 📖Source Code</b> : <b><a href="https://t.me/TeamMC1/">💥Click Me</a></b>
 """
