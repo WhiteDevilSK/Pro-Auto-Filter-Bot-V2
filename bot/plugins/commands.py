@@ -54,7 +54,7 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = caption,
+                caption = f"{file_name} \n 🔰Join Main Channel🔰 : https://t.me/TeamMC1,
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
@@ -65,12 +65,7 @@ async def start(bot, update):
                                     '🔔Join Main Channel🔔', url=f"{MT_CHANNEL}"
                                 )
                         ],
-                        [
-                            InlineKeyboardButton
-                                (
-                                    '🔊 Bot Updates 🔊', url=f"{MT_BOT_UPDATES}"
-                                )
-                        ]
+                        
                     ]
                 )
             )
@@ -80,14 +75,14 @@ async def start(bot, update):
             await update.bot.send_video(
                 chat_id=update.chat.id,
                 video = file_id,
-                caption = caption,
+                caption = f"{file_name} \n 🔰Join Main Channel🔰 : https://t.me/TeamMC1,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    '👨‍💼 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜 👨‍💼', url="https://t.me/TeamMC1"
+                                    '🔔Join Main Channel🔔', url="https://t.me/TeamMC1"
                                 )
                         ]
                     ]
@@ -99,14 +94,14 @@ async def start(bot, update):
             await update.bot.send_audio(
                 chat_id=update.chat.id,
                 audio = file_id,
-                caption = caption,
+                caption = f"{file_name} \n 🔰Join Main Channel🔰 : https://t.me/TeamMC1,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    '👨‍💼 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜 👨‍💼', url="https://t.me/TeamMC1"
+                                    '🔔Join Main Channel🔔', url="https://t.me/TeamMC1"
                                 )
                         ]
                     ]
