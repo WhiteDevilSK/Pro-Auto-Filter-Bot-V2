@@ -54,7 +54,7 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = f"{file_name} \n 🔰Join Main Channel🔰 : https://t.me/TeamMC1,
+                caption = f"{file_name} \n,
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
@@ -75,7 +75,7 @@ async def start(bot, update):
             await update.bot.send_video(
                 chat_id=update.chat.id,
                 video = file_id,
-                caption = f"{file_name} \n 🔰Join Main Channel🔰 : https://t.me/TeamMC1,
+                caption = f"{file_name} \n,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
