@@ -34,7 +34,7 @@ async def start(bot, update):
             )
             return
         except Exception:
-            await update.reply_text(f"<b>This bot should be the admin on your update channel</b>\n\n<b>💢 In this channel  @{UPDATE_CHANNEL} as Admin. എന്നിട്ട് /start Again </b>\n\n<b>🗣️ any Doubt @TeamMC_Request</b>")
+            await update.reply_text(f"<b>This bot should be the admin on your update channel</b>\n\n<b>💢 In this channel  @{UPDATE_CHANNEL} as Admin. And Then /start Again </b>\n\n<b>🗣️ any Doubt @TeamMC_Request</b>")
             return  
     try:
         file_uid = update.command[1]
@@ -159,10 +159,10 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('👤White Devil👤', url='https://t.me/sk_the_white_devil'),
+        InlineKeyboardButton('👤White Devil👤', url='https://t.me/TeamMC_King'),
        
     ],[
-        InlineKeyboardButton('👤 Black Devil👤', url='https://t.me/sk_the_white_devil')
+        InlineKeyboardButton('👤 Black Devil👤', url='https://t.me/TeamMC_King')
     ],[
         InlineKeyboardButton('🏠 Home', callback_data='start'),
         InlineKeyboardButton('Close 🔐', callback_data='close')
