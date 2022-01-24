@@ -54,7 +54,7 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = f"{file_name} \n,
+                caption = f"{file_name} ,
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
@@ -82,7 +82,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔔Join Main Channel🔔', url="https://t.me/TeamMC1"
+                                    '🔔Join Main Channel🔔', url="https://t.me/Exploremoviessc"
                                 )
                         ]
                     ]
@@ -94,14 +94,14 @@ async def start(bot, update):
             await update.bot.send_audio(
                 chat_id=update.chat.id,
                 audio = file_id,
-                caption = f"{file_name} \n 🔰Join Main Channel🔰 : https://t.me/TeamMC1,
+                caption = f"{file_name} \n 🔰Join Main Channel🔰 : https://t.me/Exploremoviessc,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔔Join Main Channel🔔', url="https://t.me/TeamMC1"
+                                    '🔔Join Main Channel🔔', url="https://t.me/Exploremoviessc"
                                 )
                         ]
                     ]
@@ -159,10 +159,10 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('👤White Devil👤', url='https://t.me/TeamMC_King'),
+        InlineKeyboardButton('👤White Devil👤', url='https://t.me/Exploremoviessc'),
        
     ],[
-        InlineKeyboardButton('👤 Black Devil👤', url='https://t.me/TeamMC_King')
+        InlineKeyboardButton('👤 Black Devil👤', url='https://t.me/Exploremoviessc')
     ],[
         InlineKeyboardButton('🏠 Home', callback_data='start'),
         InlineKeyboardButton('Close 🔐', callback_data='close')
